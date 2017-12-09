@@ -6,6 +6,10 @@ https://micro-eureka.herokuapp.com/
 
 https://micro-agenda.herokuapp.com/
 
+https://micro-costos.herokuapp.com/
+
+https://micro-factura.herokuapp.com/
+
 ##### Cloud AMQP details
 
 * Server	spider.rmq.cloudamqp.com
