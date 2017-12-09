@@ -10,6 +10,8 @@ https://micro-costos.herokuapp.com/
 
 https://micro-factura.herokuapp.com/
 
+https://micro-sistemabi.herokuapp.com/
+
 ##### Cloud AMQP details
 
 * Server	spider.rmq.cloudamqp.com
@@ -40,6 +42,7 @@ https://micro-factura.herokuapp.com/
 * centrocostos -> udea.odontologia.centrocostos.centrocostosasignado
 * solicitud -> udea.odontologia.cita.citasolicitada
 * facturacion -> udea.odontologia.factura.facturacreada
+* confirmacion,centrocostos,solicitud,facturacion -> udea.odontologia.sistemabi
 
 ---
 
