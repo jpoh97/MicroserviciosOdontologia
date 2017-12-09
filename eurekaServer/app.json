@@ -1,0 +1,12 @@
+{
+  "name": "Eureka Server",
+  "description": "Eureka Server Microservices.",
+  "website": "https://github.com/jpoh97/MicroserviciosOdontologia",
+  "success_url": "/",
+  "env": {
+      "EUREKA_USER_PASSWORD": {
+          "description": "Password.",
+          "generator": "secret"
+      }
+  }
+}

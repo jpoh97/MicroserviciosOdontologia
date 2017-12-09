@@ -1,0 +1,9 @@
+spring:
+  application.name: udea.odontologia.ServicioAgenda
+
+server:
+  port: ${PORT:5001}
+
+eureka:
+  client.serviceUrl.defaultZone: https://micro-eureka.herokuapp.com/eureka/
+

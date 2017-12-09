@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:5000}
+security:
+  user:
+    password: ${eureka.password}
+
+eureka:
+  instance:
+    hostname: micro-eureka.herokuapp.com
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: https://${eureka.instance.hostname}:${server.port}/eureka/
+  password: ${EUREKA_USER_PASSWORD:password}
+
+logging:
+  level:
+    com:
+     netflix:
+       discovery: OFF
+       eureka: OFF
