@@ -12,6 +12,13 @@ https://micro-factura.herokuapp.com/
 
 https://micro-sistemabi.herokuapp.com/
 
+---
+
+##### Confimación de citas 
+
+Para confirmar una cita se expuso el servicio https://micro-agenda.herokuapp.com/cita/{codigo} en este se confima la cita con código {codigo} para así continuar con la transacción de generar la factura
+---
+
 ##### Cloud AMQP details
 
 * Server	spider.rmq.cloudamqp.com
